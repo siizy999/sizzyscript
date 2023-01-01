@@ -1,0 +1,27 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Sizzy HUB", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Premium (Paid)")
+local Mainsection = Main:NewSection("Everything here (exept for tradescam) is in the free version BUT U CAN ONLY USE EVERYTHING 1 TIME IN THE FREE VERSION. U can use everything unlimited amount of times in the premium version")
+local Mainsection = Main:NewSection("Dupe (Gems)")
+
+
+Mainsection:NewButton("Gems Dupe", "Dupe Gems", function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/X2mzT81Y'))()
+end)
+
+local Mainsection = Main:NewSection("Dupe Pets")
+
+Mainsection:NewButton("Dupe Pets", "Dupes ur Pets", function()
+    print("clicked")
+end)
+
+local Mainsection = Main:NewSection("ScamTrade")
+
+Mainsection:NewButton("Start", "Start", function()
+    print("Clicked")
+end)
+Mainsection:NewButton("Stop", "Stop", function()
+    print("Clicked")
+end)
